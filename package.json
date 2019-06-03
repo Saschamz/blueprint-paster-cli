@@ -1,0 +1,37 @@
+{
+  "name": "bp-cli",
+  "version": "1.0.1",
+  "description": "Node CLI for creating templates",
+  "main": "bin/blueprint-cli",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "blueprint-cli": "bin/bp",
+    "bp-cli": "bin/bp",
+    "bp": "bin/bp",
+    "@saschamz/blueprint-cli": "bin/bp",
+    "@saschamz/bp": "bin/bp",
+    "@saschamz/bp-cli": "bin/bp"
+  },
+  "homepage": "https://github.com/Saschamz/blueprint-cli",
+  "author": "Sascha Ringström",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Saschamz/blueprint-cli.git"
+  },
+  "keywords": [
+    "cli",
+    "template"
+  ],
+  "dependencies": {
+    "arg": "^4.1.0",
+    "chalk": "^2.4.2",
+    "esm": "^3.2.25",
+    "inquirer": "^6.3.1",
+    "inquirer-fuzzy-path": "^2.0.3",
+    "ncp": "^2.0.0",
+    "replace-in-file": "^4.1.0"
+  }
+}
