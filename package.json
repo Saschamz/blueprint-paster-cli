@@ -1,6 +1,6 @@
 {
   "name": "blueprint-paster-cli",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Node CLI for effectively pasting template files/directories",
   "main": "bin/blueprint-paster-cli",
   "scripts": {
