@@ -1,29 +1,29 @@
 {
-  "name": "bp-cli",
+  "name": "blueprint-paster-cli",
   "version": "1.0.1",
-  "description": "Node CLI for creating templates",
-  "main": "bin/blueprint-cli",
+  "description": "Node CLI for effectively pasting template files/directories",
+  "main": "bin/blueprint-paster-cli",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "blueprint-cli": "bin/bp",
-    "bp-cli": "bin/bp",
-    "bp": "bin/bp",
-    "@saschamz/blueprint-cli": "bin/bp",
-    "@saschamz/bp": "bin/bp",
-    "@saschamz/bp-cli": "bin/bp"
+    "blueprint-paster": "bin/blueprint-paster",
+    "blueprint-paster-cli": "bin/blueprint-paster",
+    "bpp": "bin/blueprint-paster",
+    "@saschamz/blueprint-paster-cli": "bin/blueprint-paster"
   },
-  "homepage": "https://github.com/Saschamz/blueprint-cli",
+  "homepage": "https://github.com/Saschamz/blueprint-paster-cli",
   "author": "Sascha Ringström",
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git@github.com:Saschamz/blueprint-cli.git"
+    "url": "git@github.com:Saschamz/blueprint-paster-cli.git"
   },
   "keywords": [
     "cli",
-    "template"
+    "template",
+    "blueprint",
+    "paste"
   ],
   "dependencies": {
     "arg": "^4.1.0",
