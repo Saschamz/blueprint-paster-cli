@@ -50,17 +50,29 @@ export async function cli(rawArgs) {
 function getOptions(rawArgs) {
   const args = arg(
     {
-      '--template': String,
+      '--blueprint': String,
       '--path': String,
       '--name': String,
+      '--help': arg.COUNT,
       '-n': '--name',
       '-p': '--path',
-      '-t': '--template'
+      '-b': '--blueprint',
+      '-h': '--help'
     },
     {
       argv: rawArgs.slice(2)
     }
   )
+
+  if (args['--help'] > 0) {
+    console.log(`
+      --blueprint | -b) Specify blueprint name
+      --path | -p) Specify new relative path
+      --name | -n) Specify new name
+      --help | -h) See all available arguments
+    `)
+    process.exit(0)
+  }
 
   return {
     template_name: args['--template'],
